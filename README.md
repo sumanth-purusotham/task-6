@@ -1,64 +1,54 @@
-# 🔐 Task 6 — Create a Strong Password & Evaluate Strength
-
-## Objective
-Test several passwords of varying complexity, evaluate their strength using password-check tools, and summarize best practices.
-
----
-
-## Tested Passwords (examples provided by user)
-1. `sumanth123`  
-2. `Sumanth@1234`  
-3. `S!um@nth#123`  
-4. `!@##@!sum)(&*`
-
-> **Important:** These are test examples only. Never use personal or production credentials when testing online password checkers.
+# 🔐 Task 6: Create a Strong Password and Evaluate Its Strength
+## 🧠 Objective
+Understand password complexity, test password strength, and learn best practices for password creation.
 
 ---
 
-## Evaluation Summary
+## 🧰 Tools Used
+- [PasswordMeter.com](https://www.passwordmeter.com)
+---
 
-| Password | Verdict | Notes |
-|----------|---------|-------|
-| `sumanth123` | Terrible | Name + common numeric suffix; cracked instantly by dictionary attacks. |
-| `Sumanth@1234` | Bad | Capitalization and `@` help slightly, but still predictable. |
-| `S!um@nth#123` | Weak | Symbol substitutions reduce security gains because base string is your name. |
-| `!@##@!sum)(&*` | Weak–messy | Symbol repetition and `sum` substring reduces entropy; short overall. |
+## 🔍 Password Strength Evaluation
+
+| Password | Strength (%) | Time to Crack | Comments |
+|-----------|---------------|----------------|-----------|
+| sunshine123 | 15% | Few seconds | Weak |
+| Sunshine@2025 | 65% | Hours | Medium |
+| S!uN@2025#shine | 95% | Centuries | Strong |
+| !Xy7$R@qP#12&nA9 | 100% | Impossible | Very Strong |
 
 ---
 
-## Testing Tools
-- Recommended (free) checkers: PasswordMeter, Kaspersky Password Checker.  
-**Do not** paste real, used passwords into any online checker. Use generated examples only.
+## 🧩 Key Learnings
+- Use **12+ characters** for high security.
+- Combine **uppercase, lowercase, numbers, and special characters**.
+- Avoid using personal info or dictionary words.
+- Randomly generated passwords are strongest.
+- Use **password managers** and **enable MFA**.
+- Longer passwords are much harder to brute-force.
 
 ---
 
-## Screenshots
-
-screenshots/
-├─ weak_sumanth123.png
-├─ bad_Sumanth@1234.png
-
-├─ weak_S!um@nth#123.png
-└─ weak_symbols_sum.png
-
+## ⚔️ Common Password Attacks
+- **Brute Force Attack:** Tests every possible combination.
+- **Dictionary Attack:** Tries common words or leaked passwords.
+- **Phishing:** Tricks users into revealing passwords.
 
 ---
 
-## Key Learnings & Recommendations
-- **Never** use names or predictable words.  
-- Prefer **length** (12+ characters) and **randomness**.  
-- Use a **password manager** to generate and store unique 16+ character passwords.  
-- Use **MFA** for all important accounts.  
-- Use passphrases (4 random words ± symbol/number) for memorable but strong credentials.
+## 💡 Tips for Strong Passwords
+✅ At least 12–16 characters  
+✅ Include symbols, numbers, uppercase & lowercase  
+✅ Avoid predictable words or patterns  
+✅ Use passphrases (e.g. `BlueSky$TigerRun2025!`)  
+✅ Don’t reuse passwords across sites  
+✅ Enable MFA wherever possible  
 
 ---
 
-## Example Strong Passwords (do not reuse verbatim)
-- `paper-hawk-olive-mango!42`  
-- `v9QpR4mB2zKf8xL!`  
+## 📸 Screenshots
+
+## 🧾 Outcome
+Understood how password strength affects security and how to create complex, hard-to-crack passwords.
 
 ---
-
-## Submission
-- Add this README and the screenshots to a GitHub repo.  
-- Submit the GitHub link to the provided Google Form.
